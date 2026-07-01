@@ -8,7 +8,7 @@
 </head>
 <body>
     <div class="holder">
-        <h1>Sum Calculator</h1>
+        <h1>Calculator</h1>
         <div class="inputbox">
             <label>Enter First Number</label>
             <input type="text" id="num1"/>
@@ -17,12 +17,26 @@
         <div class="inputbox">
             <label>Enter Second Number</label>
             <input type="text" id="num2"/>
+        </div> 
+
+        <div class="inputbox">
+            <label>Enter Third Number</label>
+            <input type="text" id="num3"/>
+    </div>
+
+        <div class="btn">
+            <button onClick="calculateSum()">+</button>
         </div>
 
         <div class="btn">
-            <button onClick="calculateSum()">Calculate Sum</button>
-            <button>CLear</button>
+            <button onClick="calculateMult()">x</button>
+
         </div>
+
+    <div class="btn">
+            <button onClick="clearFleds()">c</button>
+        </div>
+
         <p id="result">This is for the answer</p>
 
 
